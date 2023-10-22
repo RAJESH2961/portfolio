@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    margin-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    background: linear-gradient(to right, #b87f7f, #4fd0cb);
+    height: 100vh;
+}
+
+header{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding:30px 10%;
+    padding-right: 10px;
+    
+}
+header a{
+    text-decoration: none;
+}
+
+/*NAV BAR START*/
+
+.topnav {
+    list-style: none;
+}
+.topnav li{
+    display:inline-block;
+    padding: 0px 20px;
+}
+.topnav li a{
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+    color: blue;
+    font-size: large;
+    text-decoration: none;
+}
+.topnav li a:hover{
+    color:rgb(195, 16, 16)
+}
+
+/*NAV BAR END*/
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(59, 59, 199);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: large;
+}
+button:hover{
+    background-color:rgb(59,59,199,0.5) ;
+}
+.exp_project{
+    
+    float:right;
+    margin-left: 600px;
+    
+}
+.socialmedia{
+    float:left;
+    justify-content: left;   
+}
+
+
+
+/*SOCIALMEDIA ICONS START*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px ;
+  border-radius: 50%;
+  border-color: black;
+}
+
+.fa:hover {
+    opacity: 0.5;
+    color: cornflowerblue;
+
+}
+.fa-instagram {
+    background: #fafcfd;
+    color: rgb(223, 45, 54);
+  }
+  .fa-whatsapp {
+    background: #fafcfd;
+    color: green;
+  }
+  .fa-linkedin {
+    background: #fafcfd;
+    color: rgb(120, 22, 226);
+  }
+  .fa-github {
+    background: #fafcfd;
+    color: rgb(0, 0, 0);
+  }
+  .fa-phone {
+    background: #fafcfd;
+    color: rgb(96, 45, 223);
+  }
+
+/*SOCIALMEDIA ICONS END*/
